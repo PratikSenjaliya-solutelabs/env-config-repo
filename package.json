@@ -13,9 +13,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node .env && react-scripts start",
+    "start": " node envReplacement.cjs && cross-env-shell && react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "node envReplacement.cjs test && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.3"
   }
 }

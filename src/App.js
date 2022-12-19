@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Demo from "./Demo";
 
 function App() {
+  console.log("Window", window.sailConfig);
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <p>{process.env.REACT_APP_TEST}</p>
+        <Demo />
       </header>
     </div>
   );
