@@ -9,62 +9,9 @@
   <body>
     <div id="root"></div>
     <script>
-      window.sailConfig = window.sailConfig || {};
+      window.envConfig = window.envConfig || {};
       // commmon env
-      window.sailConfig.baseWebUrl = "http://18.140.30.242";
-      window.sailConfig.baseApiUrl = "http://18.140.30.242";
-        window.sailConfig.appName="sail_app_public"
-      window.sailConfig.seafarerIdpUrl = "https://login-seafarer-develop.synergymarinetest.com";
-      window.sailConfig.CURRENT_VESSEL_IMO_NUMBER = "9392729";
-      window.sailConfig.CURRENT_VESSEL_NAME = "ADITYA";
-      //TODO: Currently Put hard coded but need to change
-      window.sailConfig.CURRENT_VESSEL_CODE = "ADIT";
-      window.sailConfig.WEB_PORT = "";
-      window.sailConfig.REACT_APP_AUTH_URL = window.sailConfig.seafarerIdpUrl;
-      window.sailConfig.REACT_APP_REDIRECT_URL =
-        window.sailConfig.baseWebUrl +
-        window.sailConfig.WEB_PORT +
-        "/authentication/callback";
-      window.sailConfig.REACT_APP_SILENT_REDIRECT_URL =
-        window.sailConfig.baseWebUrl +
-        window.sailConfig.WEB_PORT +
-        "/authentication/silent_callback";
-      window.sailConfig.REACT_APP_LOGOFF_REDIRECT_URL =
-        window.sailConfig.baseWebUrl +
-        window.sailConfig.WEB_PORT +
-        "/logout/callback";
-      window.sailConfig.REACT_APP_IDENTITY_CLIENT_ID = "sail_web_app";
-      window.sailConfig.SEAFARER_REST_API_ENDPOINT_PORT = ":8005";
-      window.sailConfig.TASK_MANAGEMENT_WRAPPER_REST_API_ENDPOINT_PORT =
-        ":8007";
-      window.sailConfig.CREW_WAGE_LCP_REST_API_ENDPOINT_PORT = ":8010";
-      window.sailConfig.CREW_WAGE_API_ENDPOINT_PORT = ":8003";
-      window.sailConfig.RELIEF_REST_API_ENDPOINT_PORT = ":8004";
-      window.sailConfig.USER_TO_VESSEL_API_ENDPOINT_PORT = ":8009";
-      window.sailConfig.SEAFARER_REST_API_ENDPOINT =
-        window.sailConfig.baseApiUrl +
-        window.sailConfig.SEAFARER_REST_API_ENDPOINT_PORT +
-        "/seafarer-api/v1";
-      window.sailConfig.TASK_MANAGEMENT_WRAPPER_REST_API_ENDPOINT =
-        window.sailConfig.baseApiUrl +
-        window.sailConfig.TASK_MANAGEMENT_WRAPPER_REST_API_ENDPOINT_PORT +
-        "/taskmanagement/v1";
-      window.sailConfig.CREW_WAGE_LCP_REST_API_ENDPOINT =
-        window.sailConfig.baseApiUrl +
-        window.sailConfig.CREW_WAGE_LCP_REST_API_ENDPOINT_PORT +
-        "/crewwagelcp/v1";
-      window.sailConfig.CREW_WAGE_API_ENDPOINT =
-        window.sailConfig.baseApiUrl +
-        window.sailConfig.CREW_WAGE_API_ENDPOINT_PORT +
-        "/crewwage-api/v1";
-      window.sailConfig.RELIEF_REST_API_ENDPOINT =
-        window.sailConfig.baseApiUrl +
-        window.sailConfig.RELIEF_REST_API_ENDPOINT_PORT +
-        "/relief-api/v2";
-      window.sailConfig.USER_TO_VESSEL_API_ENDPOINT =
-        window.sailConfig.baseApiUrl +
-        window.sailConfig.USER_TO_VESSEL_API_ENDPOINT_PORT +
-        "/usertovessel/v1";
+     window.envConfig.title="dev"
     </script>
   </body>
 </html>

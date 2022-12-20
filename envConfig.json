@@ -1,42 +1,14 @@
 {
   "test": {
-    "<BASE_WEB_URL>": "http://localhost",
-    "<BASE_API_URL>": "http://18.140.30.242",
-    "<SEAFARER_IDP_URL>": "https://login-seafarer-develop.synergymarinetest.com",
-    "<WEB_PORT>": ":8050",
-    "<VESSEL_NAME>": "ADITYA",
-    "<VESSEL_IMO_NUMBER>": "9392729",
-    "<CLIENT_APP_NAME>": "sail_app_local",
-    "<VESSEL_CODE>": "ADIT"
+    "<TITLE>": "local"
   },
   "dev": {
-    "<BASE_WEB_URL>": "http://18.140.30.242",
-    "<BASE_API_URL>": "http://18.140.30.242",
-    "<SEAFARER_IDP_URL>": "https://login-seafarer-develop.synergymarinetest.com",
-    "<WEB_PORT>": ":8051",
-    "<VESSEL_NAME>": "ADITYA",
-    "<VESSEL_IMO_NUMBER>": "9392729",
-    "<CLIENT_APP_NAME>": "sail_app_public",
-    "<VESSEL_CODE>": "ADIT"
+    "<TITLE>": "dev"
   },
   "qa": {
-    "<BASE_WEB_URL>": "http://sail-qa.synergymarinetest.com",
-    "<BASE_API_URL>": "http://13.213.222.105",
-    "<SEAFARER_IDP_URL>": "https://idp-sail-qa.synergymarinetest.com:8001",
-    "<WEB_PORT>": ":8050",
-    "<VESSEL_NAME>": "APL FLORIDA",
-    "<VESSEL_IMO_NUMBER>": "9350032",
-    "<CLIENT_APP_NAME>": "sail_web_app_public",
-    "<VESSEL_CODE>": "AFLO"
+    "<TITLE>": "qa"
   },
-  "production-cum-staging-alike-with-placeholders": {
-    "<BASE_WEB_URL>": "<BASE_WEB_URL>",
-    "<BASE_API_URL>": "<BASE_API_URL>",
-    "<SEAFARER_IDP_URL>": "<SEAFARER_IDP_URL>",
-    "<WEB_PORT>": "",
-    "<VESSEL_NAME>": "<VESSEL_NAME>",
-    "<VESSEL_IMO_NUMBER>": "<VESSEL_IMO_NUMBER>",
-    "<CLIENT_APP_NAME>": "sail_web_app",
-    "<VESSEL_CODE>": "<VESSEL_CODE>"
+  "production": {
+    "<TITLE>": "production"
   }
 }

@@ -105,12 +105,7 @@ readFile('./public/index.html', 'utf-8', function (err, contents) {
         process.exit(500);
       }
       else {
-        if (isResettingToPlaceholders) {
-          console.log("With grace of almighty, env restorement to placeholders happened successfully");
-        }
-        else {
           console.log("With grace of almighty, env replacement happened successfully");
-        }
       }
     });
   });
