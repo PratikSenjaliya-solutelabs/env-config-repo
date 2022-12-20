@@ -2,8 +2,31 @@ const { readFile, writeFile } = require("fs");
 const emoji = require("node-emoji");
 
 const envConfig = require("./envConfig.json");
+let isResettingToPlaceholders = process.argv[2] === "test-reverse";
 
-readFile('./src/index.html', 'utf-8', function (err, contents) {
+const derivedEnvName =
+  isResettingToPlaceholders || !process.argv[2] ? "test" : process.argv[2];
+let placeholderPrinterString = "";
+
+process.on("exit", (code) => {
+  if (code == 101) {
+    console.info(
+      "Please pass --force flag after env name, to continue building even with the missing placeholders"
+    );
+    console.info("For example, you can run:");
+    console.info(" node envReplacement.cjs {YourEnvName} --force");
+  } else if (code == 500) {
+    console.error(
+      `${emoji.emojify(
+        ":smiling_face_with_tear:",
+        onMissingEmoji
+      )} Internal script error mentioned above!`
+    );
+  }
+  console.error(`Process exited with code ${code}`);
+});
+
+readFile('./public/index.html', 'utf-8', function (err, contents) {
     if (err) {
       console.log("Error reading index.html file");
       console.error(err);
@@ -86,7 +109,7 @@ readFile('./src/index.html', 'utf-8', function (err, contents) {
       }
     }
   
-    writeFile('./src/index.html', replaced, 'utf-8', function (err) {
+    writeFile('./public/index.html', replaced, 'utf-8', function (err) {
       if (err) {
         console.error(err);
         process.exit(500);
