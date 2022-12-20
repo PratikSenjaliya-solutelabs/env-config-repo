@@ -2,10 +2,9 @@ const { readFile, writeFile } = require("fs");
 const emoji = require("node-emoji");
 
 const envConfig = require("./envConfig.json");
-let isResettingToPlaceholders = process.argv[2] === "test-reverse";
 
 const derivedEnvName =
-  isResettingToPlaceholders || !process.argv[2] ? "test" : process.argv[2];
+  !process.argv[2] ? "test" : process.argv[2];
 let placeholderPrinterString = "";
 
 process.on("exit", (code) => {
@@ -61,14 +60,6 @@ readFile('./public/index.html', 'utf-8', function (err, contents) {
       // `string` is NOT UPDATED when you run string.replace and rather
       // it just returns new string with replaced data
       let latestContents = replaced || contents;
-  
-      if (isResettingToPlaceholders) {
-        // This only runs fro pre-commit hook
-        // as we need to reverse engineer the values which were placed in for index.html
-        // when we are committing the code
-        replaced = latestContents.replace(envConfig[derivedEnvName][placeholder], placeholder);
-      }
-      else {
         // we proceed to replace the values
   
         // but but but
@@ -81,7 +72,6 @@ readFile('./public/index.html', 'utf-8', function (err, contents) {
           // if missing, push it and store it to prompt it to CLI via a message
           replaced = latestContents.replace(placeholder, envConfig[derivedEnvName][placeholder]);
         }
-      }
     });
   
     let copiedMissingPlaceholdersArray = [...missingPlaceholdersArray];
