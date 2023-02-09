@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@stylumia/core-ui": "^0.1.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "crypto": "^1.0.1",
     "node-emoji": "^1.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": " node envReplacement.cjs test && react-scripts start",
+    "start": " react-app-rewired start",
     "build": "react-scripts build",
     "test": "node envReplacement.cjs test && react-scripts test",
     "eject": "react-scripts eject",
@@ -38,8 +40,22 @@
     ]
   },
   "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
     "cross-env": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
     "dotenv": "^16.0.3",
-    "husky": "^8.0.2"
+    "https-browserify": "^1.0.0",
+    "husky": "^8.0.2",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
   }
 }
