@@ -1,7 +1,7 @@
 import "@stylumia/core-ui/dist/index.css";
 import "./App.css";
 import React from "react";
-import Demo from "./demo.tsx";
+import Demo from "./demo";
 
 function App() {
   return (

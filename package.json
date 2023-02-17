@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@stylumia/core-ui": "^0.1.7",
+    "@stylumia/core-ui": "^0.1.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.52.0",
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
     "cross-env": "^7.0.3",

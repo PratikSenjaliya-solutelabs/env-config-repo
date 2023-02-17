@@ -12,7 +12,7 @@ code {
     monospace;
 }
 .insights-slider-container{
-  max-width: calc(100vw - 240px);
+  max-width: calc(100vw - 120px);
   width: 100%;
   overflow: hidden;
   display: block;
