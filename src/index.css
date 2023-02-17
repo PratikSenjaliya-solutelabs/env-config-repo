@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.insights-slider-container{
+  max-width: calc(100vw - 240px);
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
