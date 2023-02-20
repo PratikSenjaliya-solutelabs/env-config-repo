@@ -206,8 +206,6 @@ export default function MiniDrawer() {
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
-        <div style={{position: 'relative'}}>
-          <div className='insights-slider-container'>
             <InsightsPage
               user_name="Utsav"
               setIndex={setIndex}
@@ -725,8 +723,6 @@ export default function MiniDrawer() {
                 },
               ]}
             />
-          </div>
-        </div>
       </Box>
     </Box>
   );

@@ -1917,16 +1917,16 @@
     "@swc/helpers" "^0.4.14"
 
 "@restart/hooks@^0.4.6", "@restart/hooks@^0.4.7":
-  "integrity" "sha512-Ivvp1FZ0Lja80iUTYAhbzy+stxwO7FbPHP95ypCtIh0wyOLiayQywXhVJ2ZYP5S1AjW2GmKHeRU4UglMwTG2sA=="
-  "resolved" "https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.8.tgz"
-  "version" "0.4.8"
+  "integrity" "sha512-3BekqcwB6Umeya+16XPooARn4qEPW6vNvwYnlofIYe6h9qG1/VeD7UvShCWx11eFz5ELYmwIEshz+MkPX3wjcQ=="
+  "resolved" "https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.9.tgz"
+  "version" "0.4.9"
   dependencies:
     "dequal" "^2.0.2"
 
 "@restart/ui@^1.4.1":
-  "integrity" "sha512-ziNtXY2PrjXrRUfR1D/ry1v1i5IF+kfMcH9d1kIcU2lOELfmDsVb+fzbyEDz3yKvKuqkphTunVDuLdYRJ0YsAg=="
-  "resolved" "https://registry.npmjs.org/@restart/ui/-/ui-1.5.4.tgz"
-  "version" "1.5.4"
+  "integrity" "sha512-cMI9DdqZV5VGEyANYM4alHK9/2Lh/mKZAMydztMl6PBLm6EetFbwE2RfYqliloR+EtEULlI4TiZk/XPhQAovxw=="
+  "resolved" "https://registry.npmjs.org/@restart/ui/-/ui-1.6.1.tgz"
+  "version" "1.6.1"
   dependencies:
     "@babel/runtime" "^7.20.7"
     "@popperjs/core" "^2.11.6"
@@ -1999,10 +1999,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stylumia/core-ui@^0.1.7":
-  "integrity" "sha1-5eI+ZvIxan2Dvm/BRr/U2TRPQmE="
-  "resolved" "https://gitlab.stylumia.io/api/v4/projects/271/packages/npm/@stylumia/core-ui/-/@stylumia/core-ui-0.1.7.tgz"
-  "version" "0.1.7"
+"@stylumia/core-ui@^1.0.0":
+  "integrity" "sha1-DXGrOdd7qnpI9jDvAWfcONzHK8A="
+  "resolved" "https://gitlab.stylumia.io/api/v4/projects/271/packages/npm/@stylumia/core-ui/-/@stylumia/core-ui-1.0.0.tgz"
+  "version" "1.0.0"
   dependencies:
     "@flaticon/flaticon-uicons" "^2"
     "bootstrap" "^5.2.3"
@@ -2580,14 +2580,14 @@
   dependencies:
     "@typescript-eslint/utils" "5.43.0"
 
-"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.5.0":
-  "integrity" "sha512-2iHUK2Lh7PwNUlhFxxLI2haSDNyXvebBO9izhjhMoDC+S3XI9qt2DGFUsiJ89m2k7gGYch2aEpYqV5F/+nwZug=="
-  "resolved" "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.43.0.tgz"
-  "version" "5.43.0"
+"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.5.0", "@typescript-eslint/parser@^5.52.0":
+  "integrity" "sha512-e2KiLQOZRo4Y0D/b+3y08i3jsekoSkOYStROYmPUnGMEoA0h+k2qOH5H6tcjIc68WDvGwH+PaOrP1XRzLJ6QlA=="
+  "resolved" "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.52.0.tgz"
+  "version" "5.52.0"
   dependencies:
-    "@typescript-eslint/scope-manager" "5.43.0"
-    "@typescript-eslint/types" "5.43.0"
-    "@typescript-eslint/typescript-estree" "5.43.0"
+    "@typescript-eslint/scope-manager" "5.52.0"
+    "@typescript-eslint/types" "5.52.0"
+    "@typescript-eslint/typescript-estree" "5.52.0"
     "debug" "^4.3.4"
 
 "@typescript-eslint/scope-manager@5.43.0":
@@ -2597,6 +2597,14 @@
   dependencies:
     "@typescript-eslint/types" "5.43.0"
     "@typescript-eslint/visitor-keys" "5.43.0"
+
+"@typescript-eslint/scope-manager@5.52.0":
+  "integrity" "sha512-AR7sxxfBKiNV0FWBSARxM8DmNxrwgnYMPwmpkC1Pl1n+eT8/I2NAUPuwDy/FmDcC6F8pBfmOcaxcxRHspgOBMw=="
+  "resolved" "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.52.0.tgz"
+  "version" "5.52.0"
+  dependencies:
+    "@typescript-eslint/types" "5.52.0"
+    "@typescript-eslint/visitor-keys" "5.52.0"
 
 "@typescript-eslint/type-utils@5.43.0":
   "integrity" "sha512-K21f+KY2/VvYggLf5Pk4tgBOPs2otTaIHy2zjclo7UZGLyFH86VfUOm5iq+OtDtxq/Zwu2I3ujDBykVW4Xtmtg=="
@@ -2613,6 +2621,11 @@
   "resolved" "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.43.0.tgz"
   "version" "5.43.0"
 
+"@typescript-eslint/types@5.52.0":
+  "integrity" "sha512-oV7XU4CHYfBhk78fS7tkum+/Dpgsfi91IIDy7fjCyq2k6KB63M6gMC0YIvy+iABzmXThCRI6xpCEyVObBdWSDQ=="
+  "resolved" "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.52.0.tgz"
+  "version" "5.52.0"
+
 "@typescript-eslint/typescript-estree@5.43.0":
   "integrity" "sha512-BZ1WVe+QQ+igWal2tDbNg1j2HWUkAa+CVqdU79L4HP9izQY6CNhXfkNwd1SS4+sSZAP/EthI1uiCSY/+H0pROg=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.43.0.tgz"
@@ -2620,6 +2633,19 @@
   dependencies:
     "@typescript-eslint/types" "5.43.0"
     "@typescript-eslint/visitor-keys" "5.43.0"
+    "debug" "^4.3.4"
+    "globby" "^11.1.0"
+    "is-glob" "^4.0.3"
+    "semver" "^7.3.7"
+    "tsutils" "^3.21.0"
+
+"@typescript-eslint/typescript-estree@5.52.0":
+  "integrity" "sha512-WeWnjanyEwt6+fVrSR0MYgEpUAuROxuAH516WPjUblIrClzYJj0kBbjdnbQXLpgAN8qbEuGywiQsXUVDiAoEuQ=="
+  "resolved" "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.52.0.tgz"
+  "version" "5.52.0"
+  dependencies:
+    "@typescript-eslint/types" "5.52.0"
+    "@typescript-eslint/visitor-keys" "5.52.0"
     "debug" "^4.3.4"
     "globby" "^11.1.0"
     "is-glob" "^4.0.3"
@@ -2646,6 +2672,14 @@
   "version" "5.43.0"
   dependencies:
     "@typescript-eslint/types" "5.43.0"
+    "eslint-visitor-keys" "^3.3.0"
+
+"@typescript-eslint/visitor-keys@5.52.0":
+  "integrity" "sha512-qMwpw6SU5VHCPr99y274xhbm+PRViK/NATY6qzt+Et7+mThGuFSl/ompj2/hrBlRP/kq+BFdgagnOSgw9TB0eA=="
+  "resolved" "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.52.0.tgz"
+  "version" "5.52.0"
+  dependencies:
+    "@typescript-eslint/types" "5.52.0"
     "eslint-visitor-keys" "^3.3.0"
 
 "@webassemblyjs/ast@1.11.1":
@@ -4517,9 +4551,9 @@
     "domelementtype" "^2.2.0"
 
 "dompurify@^2.2.0":
-  "integrity" "sha512-q6QaLcakcRjebxjg8/+NP+h0rPfatOgOzc46Fst9VAA3jF2ApfKBNKMzdP4DYTqtUMXSCd5pRS/8Po/OmoCHZQ=="
-  "resolved" "https://registry.npmjs.org/dompurify/-/dompurify-2.4.3.tgz"
-  "version" "2.4.3"
+  "integrity" "sha512-1e2SpqHiRx4DPvmRuXU5J0di3iQACwJM+mFGE2HAkkK7Tbnfk9WcghcAmyWc9CRrjyRRUpmuhPUH6LphQQR3EQ=="
+  "resolved" "https://registry.npmjs.org/dompurify/-/dompurify-2.4.4.tgz"
+  "version" "2.4.4"
 
 "domutils@^1.7.0":
   "integrity" "sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg=="
@@ -6812,11 +6846,6 @@
     "import-local" "^3.0.2"
     "jest-cli" "^27.5.1"
 
-"jquery@>=1.8.0":
-  "integrity" "sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg=="
-  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.6.3.tgz"
-  "version" "3.6.3"
-
 "js-sdsl@^4.1.4":
   "integrity" "sha512-08bOAKweV2NUC1wqTtf3qZlnpOX/R2DU9ikpjOHs0H+ibQv3zpncVQg6um4uYtRtrwIX8M4Nh3ytK4HGlYAq7Q=="
   "resolved" "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.1.5.tgz"
@@ -8540,9 +8569,9 @@
     "semver" "^5.6.0"
 
 "react-bootstrap@^2.6.0":
-  "integrity" "sha512-Jcrn6aUuRVBeSB6dzKODKZU1TONOdhAxu0IDm4Sv74SJUm98dMdhSotF2SNvFEADANoR+stV+7TK6SNX1wWu5w=="
-  "resolved" "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.7.0.tgz"
-  "version" "2.7.0"
+  "integrity" "sha512-WDSln+mG4RLLFO01stkj2bEx/3MF4YihK9D/dWnHaSxOiQZLbhhlf95D2Jb20X3t2m7vMxRe888FVrfLJoGmmA=="
+  "resolved" "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.7.2.tgz"
+  "version" "2.7.2"
   dependencies:
     "@babel/runtime" "^7.17.2"
     "@restart/hooks" "^0.4.6"
@@ -10024,11 +10053,6 @@
   "version" "3.1.5"
   dependencies:
     "is-typedarray" "^1.0.0"
-
-"typescript@^3.2.1 || ^4", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
-  "integrity" "sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.9.3.tgz"
-  "version" "4.9.3"
 
 "unbox-primitive@^1.0.2":
   "integrity" "sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw=="
