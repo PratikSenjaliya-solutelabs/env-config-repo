@@ -116,6 +116,7 @@ export default function MiniDrawer() {
 
   const testerFunctionFilled = () => console.log("insideFilled");
   const testerFunctionLinked = () => console.log("insideLinked");
+  const onClickExploreInsight = () => console.log("Explore Insight Clicked");
 
   const [index, setIndex] = React.useState(-1);
   const handleDrawerOpen = () => {
@@ -214,6 +215,7 @@ export default function MiniDrawer() {
               share_modal_open={openShareModal}
               delete_modal_open={openDeleteModal}
               bookmark_modal_open={openBookmarkModal}
+              onClickExploreInsight={onClickExploreInsight}
               onClickEdit={onOpenEditModal}
               onClickBookmark={onOpenBookmarkModal}
               onClickDelete={onOpenDeleteModal}
