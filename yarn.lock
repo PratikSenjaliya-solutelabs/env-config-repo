@@ -1999,10 +1999,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stylumia/core-ui@^1.0.0":
-  "integrity" "sha1-DXGrOdd7qnpI9jDvAWfcONzHK8A="
-  "resolved" "https://gitlab.stylumia.io/api/v4/projects/271/packages/npm/@stylumia/core-ui/-/@stylumia/core-ui-1.0.0.tgz"
-  "version" "1.0.0"
+"@stylumia/core-ui@^1.0.3":
+  "integrity" "sha1-65jrspziTK3LLyS7l6pqWT5rmY0="
+  "resolved" "https://gitlab.stylumia.io/api/v4/projects/271/packages/npm/@stylumia/core-ui/-/@stylumia/core-ui-1.0.3.tgz"
+  "version" "1.0.3"
   dependencies:
     "@flaticon/flaticon-uicons" "^2"
     "bootstrap" "^5.2.3"
